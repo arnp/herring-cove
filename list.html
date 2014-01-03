@@ -1,0 +1,14 @@
+---
+layout: article
+title: All Posts
+---
+
+
+<div id="article">
+  <h1>Archive</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+ 	  <li><span><a href="{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
+    {% endfor %}
+  </ul>
+</div>

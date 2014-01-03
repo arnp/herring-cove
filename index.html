@@ -1,0 +1,22 @@
+---
+layout: default
+---
+</div>
+
+  <div class="recent-posts">
+  <h1>Recent Posts</h1>
+  {% for post in site.posts limit: 1 %}
+    <ul class="homepage-posts most-recent">
+    <li><span><h4><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;<span class="badge"><smaller>FRESH</smaller></span><time class="pull-right">{{ post.date | date_to_string }}</h4></time></span></h4></span></li>
+    </ul>
+    {% endfor %}
+  	{% for post in site.posts limit: 4 offset:1 %}
+    <ul class="homepage-posts">
+ 	  <li><span><h4><a href="{{ post.url }}">{{ post.title }}</a><time class="pull-right">{{ post.date | date_to_string }}</h4></time></span></h4></span></li>
+    </ul>
+  	{% endfor %}
+    <ul>
+      <a href="{{ site.url }}/list.html">View More...</a>
+</ul>
+  	</div>
+<div class="contianer">
