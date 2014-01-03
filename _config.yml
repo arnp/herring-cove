@@ -3,7 +3,7 @@ author: Herring Cove
 markdown: redcarpet
 pygments: true
 baseurl: /
-url: http://localhost:4000
+url: 
 description: theme for jekyll
 github: http://www.github.com/arnp
 twitter: http://www.twitter.com/
