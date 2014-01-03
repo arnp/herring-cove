@@ -15,8 +15,8 @@ Herring Cove is a clean and responsive theme for Jekyll.
 
 ### Screenshots
 
-![screenshot]({{ site.url }}/images/screenshot1.png)
-![screenshot]({{ site.url }}/images/screenshot2.png)
+![screenshot](/images/screenshot1.png)
+![screenshot](/images/screenshot2.png)
 
 ### Setup
 
