@@ -5,13 +5,13 @@
   <title>Herring Cove</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="theme for jekyll">
-  <link href="/herring-cove/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/herring-cove/css/hc.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/css/hc.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif] d-->
+      <![endif]-->
     </head>
     <body>
 <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
@@ -31,10 +31,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-          <li><a href="/herring-cove/list.html">List</a></li>
-          <li><a href="/herring-cove/links.html">Links</a></li>
-          <li><a href="/herring-cove/projects.html">Projects</a></li>
-          <li><a href="/herring-cove/about.html">About</a></li>
+          <li><a href="{{ site.baseurl }}/list.html">List</a></li>
+          <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
+          <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+          <li><a href="{{ site.baseurl }}/about.html">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -45,12 +45,12 @@
        <!-- Sidebar -->
        <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-          <li class="sidebar-brand"><a href="/herring-cove"><h1 class="brand">Herring Cove</h1></a><h3>theme for jekyll</h3></li>
+          <li class="sidebar-brand"><a href="http://localhost:4000"><h1 class="brand">Herring Cove</h1></a><h3>theme for jekyll</h3></li>
           <hr />
-          <li><a href="/herring-cove/list.html">List</a></li>
-          <li><a href="/herring-cove/links.html">Links</a></li>
-          <li><a href="/herring-cove/projects.html">Projects</a></li>
-          <li><a href="/herring-cove/about.html">About</a></li>
+          <li><a href="{{ site.baseurl }}/list.html">List</a></li>
+          <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
+          <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+          <li><a href="{{ site.baseurl }}/about.html">About</a></li>
           <hr />
           <div id="social-wrapper">
            <li> <a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i> @twitter</a></li>
@@ -65,10 +65,9 @@
 
      <div class="container">
        
-
   	</div>
 	<style>
-	.showcase-wrapper {background-image: url("/herring-cove/images/showcase.jpg");}
+	.showcase-wrapper {background-image: url("http://localhost:4000/images/showcase.jpg");}
 	</style>
     <div class="showcase-wrapper sticky">
     <div class="showcase-text">
@@ -88,15 +87,37 @@
 
   <div class ="container">
 
+  </div>
+
+  <div class="recent-posts">
+  <h1>Recent Posts</h1>
   
+    <ul class="homepage-posts most-recent">
+    <li><span><h4><a href="/jekyll/testing/2013/12/08/What-is-this-anyway.html">What is this, anyway?</a>&nbsp;<span class="badge"><smaller>FRESH</smaller></span><time class="pull-right">08 Dec 2013</h4></time></span></h4></span></li>
+    </ul>
+    
+  	
+    <ul class="homepage-posts">
+ 	  <li><span><h4><a href="/2013/12/04/Samples.html">Samples</a><time class="pull-right">04 Dec 2013</h4></time></span></h4></span></li>
+    </ul>
+  	
+    <ul class="homepage-posts">
+ 	  <li><span><h4><a href="/jekyll/update/2013/11/08/welcome-to-jekyll.html">Welcome to Jekyll!</a><time class="pull-right">08 Nov 2013</h4></time></span></h4></span></li>
+    </ul>
+  	
+    <ul>
+      <a href="http://localhost:4000/list.html">View More...</a>
+</ul>
+  	</div>
+<div class="contianer">
   	<footer>
-       <p class="text-muted credit">&copy; 2014 Herring Cove &middot; <a href="https://github.com/arnp/herring-cove"> Herring Cove for Jekyll </a>2014-01-22 18:37:50 -0500  </p>
+       <p class="text-muted credit">&copy; 2014 Herring Cove &middot; <a href="https://github.com/arnp/herring-cove"> Herring Cove for Jekyll </a>2014-01-02 21:36:56 -0500  </p>
   		 </footer>
  <!-- Bootstrap core JavaScript-->
-    <script src="/herring-cove/js/jquery-1.10.2.min.js"></script>
-    <script src="/herring-cove/js/bootstrap.min.js"></script>
-    <script src="/herring-cove/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/herring-cove/js/hc.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery-1.10.2.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.js"></script>
+    <script type="{{ site.baseurl }}/text/javascript" src="js/hc.js"></script>
 </body>
 
 </html>
