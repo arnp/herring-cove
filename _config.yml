@@ -2,7 +2,9 @@ name: Herring Cove
 author: Herring Cove
 markdown: redcarpet
 pygments: true
-baseurl: /herring-cove
+baseurl: _source/
+source: _source
+url: http://arnp.github.io/herring-cove/
 description: theme for jekyll
 github: http://www.github.com/arnp
 twitter: http://www.twitter.com/
