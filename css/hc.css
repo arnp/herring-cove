@@ -260,6 +260,7 @@ pre
   -moz-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   -webkit-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   border-bottom:solid 1px #fff;
+  background-size: cover;
   z-index:-4
 }
 
@@ -468,6 +469,7 @@ time
   -webkit-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   border-bottom:solid 1px #fff;
   background-image:url(http://lorempixel.com/900/200/);
+  background-size: cover;
   z-index:-4;
   margin-top:-55px;
   margin-bottom:30px;
