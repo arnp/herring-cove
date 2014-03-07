@@ -3,7 +3,7 @@ layout: post
 title: Samples
 ---
 
-# Samples 
+# Samples
 
 # Heading 1
 
@@ -22,7 +22,7 @@ title: Samples
 **Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Quisque tempus nunc diam, non dignissim risus tincidunt a. Curabitur consequat justo vitae ipsum accumsan tempor. Quisque rhoncus eleifend ante vitae ultricies. Pellentesque suscipit nisl ut metus tincidunt, vulputate sodales dui commodo. Sed eget sapien varius, lacinia lectus nec, tempor dolor. Pellentesque sed mattis magna. Curabitur ut tristique turpis. Morbi sagittis dolor suscipit urna placerat, consectetur venenatis sapien viverra. Mauris vitae felis et sem venenatis cursus.
 
 
-![Image]({{ site.url }}/images/cc.jpg)
+![Image]({{ site.baseurl }}/images/cc.jpg)
 
 
 Donec ornare turpis non ullamcorper pulvinar. *Integer ut mauris vehicula mauris posuere adipiscing.* Phasellus dictum cursus convallis. Sed dapibus laoreet porttitor.
@@ -47,7 +47,7 @@ Donec ornare turpis non ullamcorper pulvinar. *Integer ut mauris vehicula mauris
 
 
 
-## Code 
+## Code
 
 {% highlight python %}
 class node:
