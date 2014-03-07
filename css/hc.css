@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=HelveticaNeue:300italic,700italic,300,700);
+
 
 body
 {
@@ -12,7 +12,7 @@ body
 
 h1,h2,h3,h4,h5,h6
 {
-  font-family:"Helvetica Neue", sans-serif;
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   color:#d90006
 }
 
@@ -39,7 +39,7 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover
 
 p
 {
-  font-family:"Helvetica Neue";
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:200
 }
 
@@ -117,7 +117,7 @@ p
 {
   line-height:30px;
   text-indent:40px;
-  font-family:"Helvetica Neue", sans-serif;
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:200;
   color:#9c9c9c;
   text-shadow:1px 1px #fff
@@ -166,7 +166,7 @@ p
 {
   font-weight:800;
   color:#6c7077;
-  font-family:"Helvetica Neue";
+  font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   font-size:1.4em;
   text-shadow:1px 1px #fff
 }
@@ -267,7 +267,7 @@ pre
 .showcase-text
 {
   font-size:3em;
-  font-family:"Helvetica Neue", sans-serif;
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:bolder;
   color:#fff;
   text-align:center;
@@ -355,7 +355,7 @@ pre
   border:1px solid rgba(255,255,255,.4);
   color:rgba(255,255,255,.8);
   font-weight:200;
-  font-family:"Helvetica Neue", Helvetica,sans-serif
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
 }
 
 .showcase-button:hover
@@ -420,7 +420,7 @@ img
 time
 {
   color:#c9c9c9;
-  font-family:"Helvetica Neue", sans-serif;
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:100;
   text-shadow:1px 1px #fff
 }
@@ -479,7 +479,7 @@ time
 .project-container h1
 {
   font-size:3em;
-  font-family:"Helvetica Neue", sans-serif;
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:bolder;
   color:#fff;
   text-align:center;
@@ -489,7 +489,7 @@ time
 .project-container p
 {
   font-weight:200;
-  font-family:"Helvetica Neue",sans-serif;
+  font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   color:#fff;
   text-align:center;
   left-padding:20%
@@ -548,7 +548,7 @@ time
 
 .user-card h1
 {
-  font-family:"Helvetica Neue",sans-serif;
+  font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   font-weight:bolder;
   font-size:2.5em;
   line-height:55px;
