@@ -1,8 +1,6 @@
 ---
 layout: article
 ---
-
-
   <div id="article">
    <div class="article-title">{{ page.title }}</div>
    <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}</small></p> <hr/>
@@ -19,7 +17,7 @@ layout: article
   {% if page.previous %}
   <li class="previous"><a href="{{ page.previous.url }}">&larr; Older</a></li>
   {% endif %}
-  {% if page.next %} 
+  {% if page.next %}
   <li class="next"><a href="{{ page.next.url }}">Newer &rarr;</a></li>
   {% endif %}
 
