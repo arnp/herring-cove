@@ -4,18 +4,36 @@ title: Herring Cove
 {% include showcase.html %}
 {% include greeting.html %}
 
-  <div class="recent-posts">
+{% if site.posts != empty %}
+<div class="recent-posts">
   <h1>Recent Posts</h1>
-    <ul class="homepage-posts most-recent">
-      <li><span><h4><a href="{{ site.baseurl }}/jekyll/testing/2013/12/08/What-is-this-anyway.html">What is this, anyway?</a>&nbsp;<span class="badge"><smaller>FRESH</smaller></span><time class="pull-right">08 Dec 2013</h4></time></span></h4></span></li>
+  {% for post in site.posts limit: 3 %}
+    {% if forloop.first %}
+      {% assign add_class = 'most-recent' %}
+      {% capture fresh_tag %}
+        &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
+      {% endcapture %}
+    {% endif %}
+    <ul class="homepage-posts {{ add_class }}">
+      <li>
+        <span>
+          <h4>
+            <a href="{{ site.baseurl }}/{{ post.url }}">
+              {{ post.title }}
+            </a>
+            {{ fresh_tag }}
+            <time class="pull-right">
+              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
+            </time>
+          </h4>
+        </span>
+      </li>
     </ul>
-    <ul class="homepage-posts">
-     <li><span><h4><a href="{{ site.baseurl }}/2013/12/04/Samples.html">Samples</a><time class="pull-right">04 Dec 2013</h4></time></span></h4></span></li>
-    </ul>
-    <ul class="homepage-posts">
-     <li><span><h4><a href="{{ site.baseurl }}/jekyll/update/2013/11/08/welcome-to-jekyll.html">Welcome to Jekyll!</a><time class="pull-right">08 Nov 2013</h4></time></span></h4></span></li>
-    </ul>
-    <ul>
-      <a href="{{ site.baseurl }}/list.html">View More...</a>
-    </ul>
-  </div>
+    {% assign add_class = '' %}
+    {% assign fresh_tag = '' %}
+  {% endfor %}
+  <ul>
+    <a href="{{ site.baseurl }}/list.html">View More...</a>
+  </ul>
+</div>
+{% endif %}
