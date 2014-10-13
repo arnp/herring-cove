@@ -14,3 +14,14 @@ disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
 
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
