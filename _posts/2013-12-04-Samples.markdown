@@ -50,7 +50,7 @@ Donec ornare turpis non ullamcorper pulvinar. *Integer ut mauris vehicula mauris
 
 {% highlight python %}
 class node:
-	def __init__(self, data, next=None):
-		self.data = data
-		self.next = next
+    def __init__(self, data, next=None):
+        self.data = data
+        self.next = next
 {% endhighlight %}
