@@ -1,7 +1,5 @@
 name: Herring Cove
 author: Herring Cove
-markdown: redcarpet
-pygments: true
 baseurl: /herring-cove
 description: theme for jekyll
 github: http://www.github.com/arnp
@@ -14,3 +12,20 @@ disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
 
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

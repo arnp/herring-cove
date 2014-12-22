@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Samples
 ---
 
@@ -46,12 +45,20 @@ Donec ornare turpis non ullamcorper pulvinar. *Integer ut mauris vehicula mauris
 * Tres
 
 
+## Table
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 
 ## Code
 
 {% highlight python %}
 class node:
-	def __init__(self, data, next=None):
-		self.data = data
-		self.next = next
+    def __init__(self, data, next=None):
+        self.data = data
+        self.next = next
 {% endhighlight %}
