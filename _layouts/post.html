@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div id="article">
+  <div class="article-title">{{ page.title }}</div>
+  <p class="meta">
+    <small>
+      &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
+    </small>
+  </p> <hr/>
+  <div class="post">
+    {{ content }}
+  </div>
+</div>
+{% include share.html %}
+{% include pager.html %}
+{% include comment.html %}
