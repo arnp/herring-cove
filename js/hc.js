@@ -5,7 +5,6 @@ $(document).ready(function() {
     $(".showcase-wrapper").fadeIn("slow");
 });
 
-});
 
 /*
 var toggle = false;
